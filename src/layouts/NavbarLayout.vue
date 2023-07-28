@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { onMounted } from 'vue'
 import { RouterLink } from 'vue-router'
-import { IconMoon, IconSun, IconHome, IconSettings, IconMarkdown, IconBox } from '@tabler/icons-vue'
+import { IconMoon, IconSun, IconHome, IconSettings, IconBox } from '@tabler/icons-vue'
 import myLogo from '../assets/logo.svg'
 
 interface Logo {
@@ -26,11 +26,6 @@ const items = [
     name: 'Settings',
     href: '/settings',
     icon: IconSettings
-  },
-  {
-    name: 'Markdown',
-    href: '/markdown',
-    icon: IconMarkdown
   }
 ]
 
@@ -57,30 +52,18 @@ const dropdown = {
       name: 'Tabler',
       href: 'https://tabler.io/',
       icon: 'https://tabler.io/favicon.ico'
-    },
-    {
-      name: 'Vue Showdown',
-      href: 'https://vue-showdown.js.org/',
-      icon: 'https://vue-showdown.js.org/logo.png'
     }
   ]
 }
 
 const changeTheme = () => {
-  const date = new Date()
-  const hours = date.getHours()
+  const hours = new Date().getHours()
   hours >= 19 || hours <= 7 ? dark() : light()
 }
 
-const dark = () => {
-  document.body.classList.add('theme-dark')
-  document.body.classList.remove('theme-light')
-}
+const dark = () => document.body.setAttribute('data-bs-theme', 'dark')
 
-const light = () => {
-  document.body.classList.remove('theme-dark')
-  document.body.classList.add('theme-light')
-}
+const light = () => document.body.setAttribute('data-bs-theme', 'light')
 
 onMounted(() => {
   changeTheme()

@@ -7,7 +7,6 @@
 - [Prettier](https://prettier.io/)
 - [Pinia](https://pinia.esm.dev/)
 - [Tabler](https://tabler.io/)
-- [Vue Showdown](https://vue-showdown.js.org/)
 
 ```sh
 git clone https://github.com/Fl0wyn/starter-vue-tabler.git

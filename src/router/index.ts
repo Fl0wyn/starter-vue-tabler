@@ -18,11 +18,6 @@ const router = createRouter({
       component: () => import('../views/SettingsView.vue')
     },
     {
-      path: '/markdown',
-      name: 'Markdown',
-      component: () => import('../views/MarkdownView.vue')
-    },
-    {
       path: '/:pathMatch(.*)*',
       component: () => import('../views/PageNotFound.vue')
     }
