@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { onMounted, ref } from 'vue'
-import Card from '../components/CardComponent.vue'
-import Alert from '../components/AlertComponent.vue'
+import Card from '@/components/CardComponent.vue'
+import Alert from '@/components/AlertComponent.vue'
 
 type Data = {
   id: number

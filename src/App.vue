@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router'
-import Navbar from './layouts/NavbarLayout.vue'
-import Header from './layouts/HeaderLayout.vue'
-import { useAppStore } from './stores/index'
+import Navbar from '@/layouts/NavbarLayout.vue'
+import Header from '@/layouts/HeaderLayout.vue'
+import { useAppStore } from '@/stores/index'
 
 const message = useAppStore().app_title
 document.title = message

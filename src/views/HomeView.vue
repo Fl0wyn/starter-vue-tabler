@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import Card from '../components/CardComponent.vue'
-import Table from '../components/TableComponent.vue'
+import Card from '@/components/CardComponent.vue'
+import Table from '@/components/TableComponent.vue'
 
 const thead = [
   {
