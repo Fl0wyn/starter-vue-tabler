@@ -2,7 +2,7 @@
 import { onMounted } from 'vue'
 import { RouterLink } from 'vue-router'
 import { IconMoon, IconSun, IconHome, IconSettings, IconBox } from '@tabler/icons-vue'
-import myLogo from '@/assets/logo.svg'
+import myLogo from '../assets/logo.svg'
 
 interface Logo {
   src: string
