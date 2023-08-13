@@ -21,3 +21,17 @@ document.title = message
     </div>
   </div>
 </template>
+
+<style>
+emoji-success::after {
+  content: '✔️';
+  color: transparent;
+  text-shadow: 0 0 0 #00d26a;
+}
+emoji-warning::after {
+  content: '⚠️';
+}
+emoji-danger::after {
+  content: '❌';
+}
+</style>

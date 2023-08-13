@@ -39,18 +39,31 @@ const tbody = [
 <template>
   <div class="row row-cards">
     <Card col="col-md-6" title="Sample card">
-      <div>
+      <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam, quae dolorem. Eos tenetur
         quas ducimus aperiam suscipit, eum debitis ullam obcaecati aliquid! Dolor excepturi
         temporibus veniam est praesentium minima. Non. Lorem ipsum, dolor sit amet consectetur
         adipisicing elit. Minima magni error unde reiciendis odit beatae aliquid cupiditate illo
         fugiat aperiam quaerat, veritatis corporis voluptate voluptatem fugit rem. Cupiditate,
         praesentium doloribus.
-      </div>
-      <div class="mt-3">
+      </p>
+      <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam suscipit voluptatum quasi
         soluta placeat sequi optio error, maxime est eos iste accusamus distinctio magni quam
         deleniti temporibus a vero tenetur.
+      </p>
+      <hr />
+      <div>
+        <emoji-success class="me-2" />
+        Ok
+      </div>
+      <div>
+        <emoji-warning class="me-2" />
+        Attention
+      </div>
+      <div>
+        <emoji-danger class="me-2" />
+        Erreur
       </div>
     </Card>
 
