@@ -1,4 +1,4 @@
-# <p align="center">Starter - Vue Tabler</p>
+# 🚀 Starter - Vue Tabler
 
 - [Vue 3](https://v3.vuejs.org/)
 - [Vite](https://vitejs.dev/) 
@@ -9,10 +9,6 @@
 - [Tabler](https://tabler.io/)
 
 ```sh
-git clone https://github.com/Fl0wyn/starter-vue-tabler.git
-# or
-gh repo clone Fl0wyn/starter-vue-tabler
-
 pnpm install
 pnpm dev
 ```
